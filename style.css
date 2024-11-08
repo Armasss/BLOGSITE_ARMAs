@@ -1,0 +1,55 @@
+.custom_container{
+    color:white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+{
+    border: 1px red solid;
+}
+.profile-pic{
+    width: 300px;
+}
+
+.home{
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+#text-group{
+    padding: 50px;
+}
+
+.custom-page{
+    scroll-margin-top:55px;
+
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 5px
+    
+}
+
+.background-paragraph{
+    text-align: justify;
+    padding: 25px;
+}
+
+.background-details{
+    width: 25rem;
+    text-align: center;
+    padding: 25px;
+}
+
