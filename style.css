@@ -37,7 +37,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    align-content: center;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
@@ -76,8 +75,6 @@
 }
 
 .hobbies-para{
-    display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     text-align: justify;
@@ -89,24 +86,17 @@
     justify-content: center;
 }
 
-@media (min-width: 768px) {
-    .hobbies-img {
-        width: 100%; /* Set width to 40% for larger screens */
-    }
-}
 .hobbies-content{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 
 }
 
 .hob-img-container{
-    margin: 0 auto;
     width: 50rem;
     display: flex;
     flex-direction: column;
-
 }
 
